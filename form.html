@@ -17,9 +17,31 @@
 			<input type="text" id="email" name="email"><br>
 			<label for="rating">Rating of our website 0 - 100:</label><br>
 			<input type="range" min="0" max="100" value="50" id="range" name="range"><br>
-			<label for="rating">Comments and Concerns:</label><br>
-			<textarea rows="3" cols="10" id="comments_concerns" name="comments_concerns"></textarea>
+			<label for="feedback">Feedback:</label><br>
+			<textarea rows="3" cols="10" id="feedback" name="feedback"></textarea>
 			<br>
+			<label for="games">Which of these games is your favourite?</label><br>
+			<select for="games" id="games">
+				<option value="minecraft">Minecraft</option>
+				<option value="GTAV">GTA V</option>
+				<option value="LOL">League of Legends</option>
+				<option value="Valorant">Valorant</option>
+			</select><br>
+			<fieldset>
+        		<label for="hoursPlayed">How often do you play video games?</label><br>
+        		<input type="radio" name="notOften" value="notOften">Not often<br>
+        		<input type="radio" name="often" value="often">Often<br>
+        		<input type="radio" name="veryOften" value="veryOften">Very often<br>
+    		</fieldset>
+
+    		<label for="prefergenre">Which of these video game genres do you like the most?</label><br>
+    		<input type="checkbox" name="FPS" value="FPS">First Person Shooter<br>
+			<input type="checkbox" name="RPG" value="RPG">Role-Playing Game<br>
+			<input type="checkbox" name="BR" value="BR">Battle Royale
+			<br>
+			<br>
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
 
 		</form>
 	</body>
