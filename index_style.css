@@ -18,3 +18,12 @@ a:hover {
 	background-color: lightgrey;
 	text-align: center;
 }
+
+/* I put grey as the background colour because its clean, and I don't want a flashy colour,
+which would be extremely distracting for the user. Light grey is perfect, its not as bright as
+pure white, but its not too dark that the text colour has no contrast with the background.
+For the text, I chose the font "lucida console", which is part of the font family monospace. It 
+is simple and slim, and it looks like the type of text you would see in a video game, or
+a game review article. Finally, I added the border to the navigation bar so it would be clear for
+the users to see all the pages. I also added a hover effect for all the links, it just adds some 
+colour when its selected to make it clear which webpage the user is entering. */
