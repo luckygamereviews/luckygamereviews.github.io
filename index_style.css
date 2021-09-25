@@ -3,6 +3,10 @@
 
 }
 
+#navBar {
+	border: 10px;
+}
+
 a:hover {
 	background-color: lightgrey;
 }
