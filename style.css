@@ -19,6 +19,11 @@ a:hover {
 	text-align: center;
 }
 
+.FAQ_TERM_ul {
+  list-style-position: inside;
+  text-align: center;
+}
+
 /* I put grey as the background colour because its clean, and I don't want a flashy colour,
 which would be extremely distracting for the user. Light grey is perfect, its not as bright as
 pure white, but its not too dark that the text colour has no contrast with the background.
