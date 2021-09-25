@@ -1,17 +1,20 @@
 #text {
 	font-family: "Lucida Console", monospace;
-
 }
 
-#navBar {
-	border: 3px black;
+.navBar {
+	border-style: solid;
+	border-radius: 25px;
+	padding: 20px;
 }
 
 a:hover {
-	background-color: lightgrey;
+	background-color: dimgrey;
+	padding: 5px;
+	border-radius: 4px;
 }
 
 .body {
-	background-clor: yellow;
+	background-color: lightgrey;
 	text-align: center;
 }
