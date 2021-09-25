@@ -22,6 +22,7 @@ a:hover {
 .FAQ_TERM_ul {
   list-style-position: inside;
   text-align: center;
+  list-style-type: circle;
 }
 
 /* I put grey as the background colour because its clean, and I don't want a flashy colour,
@@ -32,3 +33,5 @@ is simple and slim, and it looks like the type of text you would see in a video 
 a game review article. Finally, I added the border to the navigation bar so it would be clear for
 the users to see all the pages. I also added a hover effect for all the links, it just adds some 
 colour when its selected to make it clear which webpage the user is entering. */
+
+/*This is my css comment*/
