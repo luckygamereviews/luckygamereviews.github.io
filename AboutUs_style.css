@@ -1,0 +1,21 @@
+#text {
+	font-family: "Lucida Console", monospace;
+}
+
+.navBar {
+	border-style: solid;
+	border-radius: 25px;
+	padding: 20px;
+	text-align: center;
+}
+
+a:hover {
+	background-color: dimgrey;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+.body {
+	background-color: lightgrey;
+	text-align: center;
+}
