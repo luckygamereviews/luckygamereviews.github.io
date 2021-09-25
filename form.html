@@ -6,27 +6,28 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 
-	<body>
+	<body class="body">
+		<div style="padding-left: 600px; padding-right: 600px;">
 		<a href="index.html"><img src="img/favicon.png"></a>
 
 		<form>
 			<label id="text" for="fname">First name:</label><br>
-			<input type="text" id="fname" name="fname"><br></br>
+			<input id="text" type="text" id="fname" name="fname"><br></br>
 			<label id="text" for="lname">Last name:</label><br>
-			<input type="text" id="lname" name="lname"><br></br>
+			<input id="text" type="text" id="lname" name="lname"><br></br>
 			<label id="text" for="email">Email:</label><br>
-			<input type="text" id="email" name="email"><br></br>
+			<input id="text" type="text" id="email" name="email"><br></br>
 			<label id="text" for="rating">Rating of our website 0 - 100:</label><br>
-			<input type="range" min="0" max="100" value="50" id="range" name="range"><br></br>
+			<input id="text" type="range" min="0" max="100" value="50" id="range" name="range"><br></br>
 			<label id="text" for="feedback">Feedback:</label><br>
-			<textarea rows="3" cols="10" id="feedback" name="feedback"></textarea>
+			<textarea rows="3" cols="30" id="feedback" name="feedback"></textarea>
 			<br></br>
-			<label id="text" for="games">Which of these games is your favourite?</label><br>
+			<label id="text" for="games">Which of these games is your favourite?</label><br></br>
 			<select for="games" id="games">
-				<option value="minecraft">Minecraft</option>
-				<option value="GTAV">GTA V</option>
-				<option value="LOL">League of Legends</option>
-				<option value="Valorant">Valorant</option>
+				<option id="text" value="minecraft">Minecraft</option>
+				<option id="text" value="GTAV">GTA V</option>
+				<option id="text" value="LOL">League of Legends</option>
+				<option id="text" value="Valorant">Valorant</option>
 			</select><br></br>
 			<fieldset>
         		<label id="text" for="hoursPlayed">How often do you play video games?</label><br>
@@ -35,7 +36,7 @@
         		<input type="radio" name="group1" value="veryOften">Very often<br>
     		</fieldset>
     		</br>
-    		<label id="text" for="prefergenre">Which of these video game genres do you like the most?</label><br>
+    		<label id="text" for="prefergenre">Which of these video game genres are you interested in?</label><br>
     		<input type="checkbox" name="FPS" value="FPS">First Person Shooter<br>
 			<input type="checkbox" name="RPG" value="RPG">Role-Playing Game<br>
 			<input type="checkbox" name="BR" value="BR">Battle Royale
@@ -49,18 +50,18 @@
 			<label id="text" for="userPost">And finally, which game would you recommend for us to review next?</label><br>
 			<input list="games_2" name="games_2">
 			<datalist id="games_2">
-				<option value="Call of Duty: Warzone">
-				<option value="Cyberpunk 2077">
-				<option value="Resident Evil Village">
-				<option value="2K21">
-				<option value="Forza Horizon 4">
-				<option value="New World">
-				<option value="Hitman 3">
+				<option id="text" value="Call of Duty: Warzone">
+				<option id="text" value="Cyberpunk 2077">
+				<option id="text" value="Resident Evil Village">
+				<option id="text" value="2K21">
+				<option id="text" value="Forza Horizon 4">
+				<option id="text" value="New World">
+				<option id="text" value="Hitman 3">
 			</datalist><br></br>
 
-			<input type="submit" value="Submit">
-			<input type="reset" value="Reset">
-
+			<input id="text" type="submit" value="Submit">
+			<input id="text" type="reset" value="Reset">
+		</div>
 		</form>
 	</body>
 </html>
