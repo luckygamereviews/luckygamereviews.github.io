@@ -31,6 +31,33 @@ a:hover {
   list-style-type: circle;
 }
 
+/*.table1 {
+	width: 600px;
+	border-style: solid;
+	border-radius: 10px;
+	padding: 5px 10px;
+	margin-left: auto;
+  margin-right: auto;
+	text-align: center;
+}
+
+.th {
+	border-style: solid;
+	border-radius: 10px
+}
+*/
+table {
+		margin-left: auto;
+  margin-right: auto;
+}
+th, td {
+	margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 10px;
+}
+
 /* I put grey as the background colour because its clean, and I don't want a flashy colour,
 which would be extremely distracting for the user. Light grey is perfect, its not as bright as
 pure white, but its not too dark that the text colour has no contrast with the background.
