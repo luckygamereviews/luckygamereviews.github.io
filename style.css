@@ -2,6 +2,12 @@
 	font-family: "Lucida Console", monospace;
 }
 
+#text1 {
+	font-family: "Lucida Console", monospace;
+	width: 325px;
+	line-height: 1.1;
+}
+
 .navBar {
 	border-style: solid;
 	border-radius: 25px;
