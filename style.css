@@ -36,6 +36,12 @@ a:hover {
 	padding-right: 600px;
 }
 
+#inlineIMG {
+	float: right;
+	height: 200px; 
+	padding-right: 150px;
+}
+
 /*.table1 {
 	width: 600px;
 	border-style: solid;
