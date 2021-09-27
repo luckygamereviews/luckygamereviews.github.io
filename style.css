@@ -42,6 +42,19 @@ a:hover {
 	padding-right: 150px;
 }
 
+#img {
+	width: 533px; 
+	height: 300px;
+}
+
+#img2 {
+	height: 300px;
+}
+
+#favicon {
+	width: 36.75px;
+	height: 25px;
+}
 /*.table1 {
 	width: 600px;
 	border-style: solid;
