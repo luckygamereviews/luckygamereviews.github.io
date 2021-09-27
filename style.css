@@ -16,8 +16,12 @@
 
 a:hover {
 	background-color: dimgrey;
-	padding: 5px;
+	padding: 2px;
 	border-radius: 4px;
+}
+
+a:visited {
+	color: mediumblue;
 }
 
 .body {
