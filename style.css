@@ -59,21 +59,49 @@ a:visited {
 	width: 36.75px;
 	height: 25px;
 }
-/*.table1 {
-	width: 600px;
-	border-style: solid;
-	border-radius: 10px;
-	padding: 5px 10px;
-	margin-left: auto;
-  margin-right: auto;
-	text-align: center;
+
+#contentLeft {
+	border: 2px solid;
+	border-radius: 5px;
+	text-align: left;
+	float: left;
+	width: 45%;
+	margin-top: 20px;
+	padding: 10px;
 }
 
-.th {
-	border-style: solid;
-	border-radius: 10px
+#contentRight {
+	border: 2px solid;
+	border-radius: 5px;
+	float: right;
+	text-align: left;
+	width: 45%;
+	margin-top: 20px;
+	padding: 10px;
 }
-*/
+
+#page {
+	text-align: center;
+	padding-right: 600px;
+	padding-left: 600px;
+}
+
+#header {
+	border: 2px solid;
+	border-radius: 5px;
+	text-align: center;	
+}
+
+#footer {
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
 table {
 		margin-left: auto;
   margin-right: auto;
