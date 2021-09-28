@@ -102,6 +102,12 @@ a:visited {
   border-radius: 5px;
 }
 
+#columns_3 {
+	text-align: left;
+	column-count: 3;
+	font-family: "Lucida Console", monospace;;
+}
+
 table {
 		margin-left: auto;
   margin-right: auto;
