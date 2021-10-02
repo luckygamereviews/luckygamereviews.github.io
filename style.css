@@ -29,6 +29,12 @@ a:visited {
 	text-align: center;
 }
 
+#fixedBody {
+	width: 900px;
+	background-color: lightgrey;
+	text-align: center;
+}
+
 .FAQ_TERM_ul {
   list-style-position: inside;
   text-align: center;
