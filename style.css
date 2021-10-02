@@ -1,3 +1,7 @@
+/*!!!!!!*/
+/*Text*/
+/*!!!!!!*/
+
 #text {
 	font-family: "Lucida Console", monospace;
 }
@@ -8,11 +12,24 @@
 	line-height: 1.1;
 }
 
+#text2 {
+	font-family: "Lucida Console", monospace;
+	text-align: center;
+}
+
+/*!!!!!!*/
+/*navigation bar*/
+/*!!!!!!*/
+
 .navBar {
 	border-style: solid;
 	border-radius: 25px;
 	padding: 20px;
 }
+
+/*!!!!!!*/
+/*links*/
+/*!!!!!!*/
 
 a:hover {
 	background-color: dimgrey;
@@ -24,16 +41,18 @@ a:visited {
 	color: mediumblue;
 }
 
+/*!!!!!!*/
+/*body*/
+/*!!!!!!*/
+
 .body {
 	background-color: lightgrey;
 	text-align: center;
 }
 
-#fixedBody {
-	width: 675px;
-	margin: 0 auto;
-	background-color: lightgrey;
-}
+/*!!!!!!*/
+/*lists*/
+/*!!!!!!*/
 
 .FAQ_TERM_ul {
   list-style-position: inside;
@@ -41,20 +60,39 @@ a:visited {
   list-style-type: circle;
 }
 
+/*!!!!!!*/
+/*Tables*/
+/*!!!!!!*/
+
+table {
+		margin-left: auto;
+  margin-right: auto;
+}
+th, td {
+	margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/*!!!!!!*/
+/*div*/
+/*!!!!!!*/
+
 .outerDiv {
 	padding-left: 600px;
 	padding-right: 600px;
 }
 
+/*!!!!!!*/
+/*images*/
+/*!!!!!!*/
+
 #inlineIMG {
 	float: right;
 	height: 200px; 
 	padding-right: 150px;
-}
-
-#text2 {
-	font-family: "Lucida Console", monospace;
-	text-align: center;
 }
 
 #img {
@@ -66,9 +104,23 @@ a:visited {
 	height: 300px;
 }
 
+/*!!!!!!*/
+/*favicon*/
+/*!!!!!!*/
+
 #favicon {
 	width: 36.75px;
 	height: 25px;
+}
+
+/*!!!!!!*/
+/*Fixed Page*/
+/*!!!!!!*/
+
+#fixedBody {
+	width: 675px;
+	margin: 0 auto;
+	background-color: lightgrey;
 }
 
 #contentLeft {
@@ -112,27 +164,64 @@ a:visited {
   border-radius: 5px;
 }
 
+/*!!!!!!*/
+/*Multi Column Page*/
+/*!!!!!!*/
+
 #columns_3 {
 	text-align: left;
 	column-count: 3;
 	font-family: "Lucida Console", monospace;;
 }
 
+/*!!!!!!*/
+/*Liquid page*/
+/*!!!!!!*/
+
 #liquidBody {
-	
+	width: 50%;
+	margin: 0 auto;
 }
 
-table {
-		margin-left: auto;
-  margin-right: auto;
+#liquidMainContent {
+	overflow: auto;
 }
-th, td {
-	margin-left: auto;
-  margin-right: auto;
-  border: 1px solid;
-  padding: 5px;
-  border-radius: 10px;
+
+#liquidContentLeft {
+	padding: 5px 7px 5px 7px;
+	border: 1px solid;
+	border-radius: 4px;
+	width: 45%;
+	float: left;
+	margin: 1%;
 }
+
+#liquidContentRight {
+	padding: 5px 7px 5px 7px;
+	border: 1px solid;
+	border-radius: 4px;
+	float: left;
+	width: 45%;
+	margin: 1%;
+}
+
+
+#liquidHeader {
+	margin-top: 10px;
+	border: 1px solid;
+	border-radius: 4px;
+	text-align: center;
+}
+ 
+#liquidFooter {
+ 	margin-bottom: 10px;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+
+
 
 /* I put grey as the background colour because its clean, and I don't want a flashy colour,
 which would be extremely distracting for the user. Light grey is perfect, its not as bright as
