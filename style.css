@@ -30,9 +30,9 @@ a:visited {
 }
 
 #fixedBody {
-	width: 900px;
+	width: 675px;
+	margin: 0 auto;
 	background-color: lightgrey;
-	text-align: center;
 }
 
 .FAQ_TERM_ul {
@@ -52,6 +52,11 @@ a:visited {
 	padding-right: 150px;
 }
 
+#text2 {
+	font-family: "Lucida Console", monospace;
+	text-align: center;
+}
+
 #img {
 	width: 533px; 
 	height: 300px;
@@ -67,35 +72,34 @@ a:visited {
 }
 
 #contentLeft {
-	border: 2px solid;
-	border-radius: 5px;
-	text-align: left;
+	padding: 5px 7px 5px 7px;
+	width: 300px;
 	float: left;
-	width: 45%;
-	margin-top: 20px;
-	padding: 10px;
+	margin: 10px;
+	border: 1px solid;
+	border-radius: 4px;
 }
 
 #contentRight {
-	border: 2px solid;
-	border-radius: 5px;
+	padding: 5px 7px 5px 7px;
+	width: 300px;
 	float: right;
-	text-align: left;
-	width: 45%;
-	margin-top: 20px;
-	padding: 10px;
+	margin: 10px;
+	border: 1px solid;
+	border-radius: 4px;
 }
 
-#page {
-	text-align: center;
-	padding-right: 600px;
-	padding-left: 600px;
+#mainContent {
+	overflow: auto;
+	height: 100%;
 }
 
 #header {
 	border: 2px solid;
 	border-radius: 5px;
 	text-align: center;	
+	padding: 10px;
+	margin: 10px;
 }
 
 #footer {
